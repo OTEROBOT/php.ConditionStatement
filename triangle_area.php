@@ -13,12 +13,17 @@
         echo "<br><br>";
         echo "<h3>คำนวณพิ่นที่ได้ $area ตารางหน่วย</h3>";
     
-    
-    
-    
-    
-    
-    
     ?>
+
+    <br>
+    <a href="triangle_area_from" class="back-button">กลับไปบังฟรอม</a>
+</div>
+<?php
+function triangleArea($h,$w){
+    $a = 0.5/$h*$w;
+    return $a;
+}
+
+?>
 </body>
 </html>
